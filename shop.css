@@ -1,0 +1,80 @@
+body{
+  margin:0;
+  background-color: #EEE9BF;
+}
+
+
+
+.navbar {
+  width: 100%;
+  background-color: #A67D3D;
+  overflow: auto;
+  position: top;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #5C4033;
+}
+
+.active {
+  background-color: #8B5A2B;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+
+.main{
+  width: 40%;
+  float: left;
+  margin: 0% 5%;
+  margin-bottom: 20px;}
+
+.sekcija{
+    background-color: white;
+    padding:1% 5%; 
+    border-radius:10px; 
+    margin:10px 0px; 
+    border:1px solid gray; 
+    padding:30px; 
+    text-align:justify; 
+    line-height:30px;
+    box-shadow: 10px 10px 5px gray;
+    }
+
+.slika{
+  width: 100px;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.text{
+  text-align: center;
+  font-weight: bold;
+  font-family:Tw Cen MT;
+  color: gray;
+}
+
+.text1{
+  text-align: center;
+  font-weight: bold;
+  font-family:Tw Cen MT;
+  color: gray;
+  font-size: 15pt;
+  letter-spacing: 2pt;
+  
+}
+

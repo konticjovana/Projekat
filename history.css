@@ -1,0 +1,132 @@
+body{
+	margin: 0;
+	background-color: #EEE8AA;
+}
+
+
+
+
+@font-face{
+	font-family: elegant;
+	src:url("good_things/Good Things.ttf");
+}
+
+#naslov{
+ font-family: elegant;
+ text-align: center;
+ font-size: 50px;
+ color: #A67D3D;
+}
+
+
+.navbar {
+  width: 100%;
+  background-color: #A67D3D;
+  overflow: auto;
+  position: top;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #5C4033;
+}
+
+.active {
+  background-color: #8B5A2B;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+
+hr{
+  width: 500px;
+  border-color: #A67D3D;
+}
+
+.main{
+  width: 40%;
+  float: left;
+  margin: 0% 5%;
+  margin-bottom: 20px;
+
+}
+
+.sekcija{
+    background:rgba(255,255,255,0.7); 
+    padding:1% 5%; 
+    border-radius:10px; 
+    margin:10px 0px; 
+    border:1px solid gray; 
+    padding:30px; 
+    text-align:justify; 
+    line-height:30px;
+    }
+
+.main1{
+  width: 40%;
+  float: right;
+  margin: 0% 5%;
+  margin-bottom: 20px;
+}    
+
+.sekcija1{
+    background:rgba(255,255,255,0.7); 
+    padding:1% 5%; 
+    border-radius:10px; 
+    margin:10px 0px; 
+    border:1px solid gray; 
+    padding:30px; 
+    text-align:justify; 
+    line-height:30px;
+    }
+
+p::first-letter{font-size:4em}
+
+.main2{
+  width: 90%;
+  float: left;
+  margin: 0% 5%;
+  margin-bottom: 20px;
+
+}
+
+.sekcija1{
+    background:rgba(255,255,255,0.7); 
+    padding:1% 5%; 
+    border-radius:10px; 
+    margin:10px 0px; 
+    border:1px solid gray; 
+    padding:30px; 
+    text-align:justify; 
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+@media screen and(max-width: 500px){
+  .main{
+  width: 90%;
+  float: none;
+  margin: 0% 5%;
+  margin-bottom: 20px;
+  }
+}
+
+@media screen and(max-width: 500px){
+  .main1{
+  width: 90%;
+  float: none;
+  margin: 0% 5%;
+  margin-bottom: 20px;
+  }
+}
