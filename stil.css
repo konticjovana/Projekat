@@ -75,3 +75,23 @@ body{
 	letter-spacing: 2pt;
 	padding: 10pt;
 }
+	
+.main2{
+  width: 90%;
+  float: left;
+  margin: 0% 5%;
+  margin-bottom: 20px;
+
+}
+
+.sekcija1{
+    background:rgba(255,255,255,0.7); 
+    padding:1% 5%; 
+    border-radius:10px; 
+    margin:10px 0px; 
+    border:1px solid gray; 
+    padding:30px; 
+    text-align:justify; 
+    margin-left: auto;
+    margin-right: auto;
+    }
